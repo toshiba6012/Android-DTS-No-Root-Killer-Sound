@@ -1,0 +1,39 @@
+
+#This DTS audio for rooted and Nonrooted devices.
+#To install go to GooglePlay and install Termux. 
+#Then paste this url to your browser and load the page it should start downloading:
+https://github.com/toshiba6012/Android-DTS-No-Root-Killer-Sound/archive/refs/heads/main.zip
+#Then unzip the downloaded zip file from Github to your internal storage root.
+
+#Open the Termux app and run these commands copy them from here and paste them to 
+#Termux terminal just long press:
+termux-setup-storage   #Grant access to the prompt:
+
+cd ~/storage/shared/termux_dTS
+
+#Then you will have to know the architecture of your device for phones 64bit:
+cd arm64-v8a 
+#For 32bit phones it will be:
+cd armeabi-v7a
+#For Android-x86 64bit it will be:
+cd x86_64
+#For Android-x86 32bit it will be:
+cd x86
+#Then to install run these commands: 
+cp -r usr /data/data/com.termux/files
+chmod 755 /data/data/com.termux/files/usr/bin/dTS
+chmod 755 /data/data/com.termux/files/usr/libexec/libdTS.so
+chmod 755 /data/data/com.termux/files/usr/pulse
+chmod 755 /data/data/com.termux/files/usr/pulse/default.pa
+dTS
+#Please note everytime the device is shutdown you need to reload the libraries.
+#This simply done by the termux app just type:
+dTS
+
+#You will enjoy the sound. Take care.
+
+
+
+
+Best regards
+Ryan Johnson
