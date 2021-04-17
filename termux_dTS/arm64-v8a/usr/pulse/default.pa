@@ -1,2 +1,2 @@
-load-module dcaenc
+load-module libdcaenc
 load-module module-sles-sink
