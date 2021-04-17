@@ -1,0 +1,2 @@
+load-module dcaenc
+load-module module-sles-sink
