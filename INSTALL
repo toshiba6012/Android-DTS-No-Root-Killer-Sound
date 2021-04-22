@@ -1,4 +1,0 @@
-DTS audio for Android for all architectures to install add the contents of the data folder to your internal storage root. Then open terminal and execute this command:
-export LD_LIBRARY_PATH=/data/media/0/dTS
-
-Reboot and you are Rocking.
