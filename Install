@@ -9,7 +9,6 @@ https://github.com/toshiba6012/Android-DTS-No-Root-Killer-Sound/archive/refs/hea
 #Termux terminal just long press:
 
 termux-setup-storage   
-unzip ~/storage/shared/Download/Android-DTS-No-Root-Killer-Sound-main.zip /data/media/0
 cd ~/storage/shared/Termux
 cp -r usr /data/data/com.termux/files
 chmod 755 /data/data/com.termux/files/usr/bin/dTS
