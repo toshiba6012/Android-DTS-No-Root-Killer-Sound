@@ -3,7 +3,7 @@
 #To install go to GooglePlay and install Termux. 
 #Then paste this url to your browser and load the page it should start downloading:
 https://github.com/toshiba6012/Android-DTS-No-Root-Killer-Sound/archive/refs/heads/main.zip
-#Then unzip the downloaded zip file from Github copy the contents of the data folder to your internal storage root.
+#Then unzip the downloaded zip file from Github make sure you have the show hidden files preferance on then copy the contents of the data folder to your internal storage root.
 
 #Open the Termux app and run these commands copy them from here and paste them to 
 #Termux terminal just long press:
