@@ -13,8 +13,12 @@ cd ~/storage/shared/Termux
 cp -r usr /data/data/com.termux/files
 chmod 755 /data/data/com.termux/files/usr/bin/dTS
 chmod 755 /data/data/com.termux/files/usr/libexec/libdcaenc.so
+reboot
+
+#Once your device has rebooted then launch the Termux app and run this command:
 dTS
-#Please note everytime the device is shutdown you need to reload the libraries.
+
+#Please note everytime the device is shutdown you need to reload the library.
 #This simply done by the termux app just type:
 dTS
 
